@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-weight: 499;
+    margin: 0;
+    padding: 0;
+    color: #3F3F3F;
+}
+#contain{
+    position: relative;
+    margin: auto;
+    width: 300px;
+}
+#container{
+    position: relative;
+    padding: 10px;
+    width:300px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+#nav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: yellow;
+}
+#back{
+    overflow: hidden;
+    width: 250px;
+    height: 100%;
+    margin: auto;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "ration ration"
+    "ratnam ratnam"
+    "appno appno"
+    "appnum appnum"
+    "appnm appnm"
+    "appnam appnam"
+    "gender gender"
+    "sex sex"
+    "ag ag"
+    "age age"
+    "addd addd"
+    "address address"
+    "fath fath"
+    "nof nof"
+    "post pincode"
+    "pstofc pin"
+
+    "locall locall"
+    "nol nol"
+    "vil vil"
+    "village village"
+    
+    "tal tal"
+    "thaluk thaluk"
+    "dis dis"
+    "district district"
+    "iss iss"
+    "purpose purpose"
+    "reg reg";
+    padding-left:0px ;
+}
+#regi{
+    height: 40px;
+    width: 100%;
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+#reg{
+    grid-area: reg;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+#purpose{
+    grid-area: purpose;
+}
+#iss{
+    grid-area: iss;
+}
+#thaluk{
+    grid-area: thaluk;
+}
+#tal{
+    grid-area: tal;
+}
+#district{
+    grid-area: district;
+}
+#dis{
+    grid-area: dis;
+}
+#village{
+    grid-area: village;
+}
+#vil{
+    grid-area: vil;
+}
+#nol{
+    grid-area: nol;
+}
+#locall{
+    grid-area: locall;
+}
+#pin{
+    grid-area: pin;
+}
+#pstofc{
+    grid-area: pstofc;
+}
+#pincode{
+    grid-area: pincode;
+}
+#post{
+    grid-area: post;
+}
+#nof{
+    grid-area: nof;
+}
+#fath{
+    grid-area: fath;
+}
+#addd{
+    grid-area: addd;
+}
+#age{
+    grid-area: age;
+}
+#address{
+    grid-area: address;
+}
+#ag{
+    grid-area: ag;
+}
+#sex{
+    grid-area: sex;
+}
+#gender{
+    grid-area: gender;
+}
+#appnam{
+    grid-area: appnam;
+}
+#appnm{
+    grid-area: appnm;
+}
+#appnum{
+    grid-area: appnum;
+}
+#ration{
+    grid-area: ration;
+}
+#ratnam{
+    grid-area: ratnam;
+}
+#appno{
+    grid-area: appno;
+}
+#ratnam , #appnam,#appnum,#age,#address,#nof,#village,#thaluk,#nol,#district,#purpose{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #707070;
+}
+#pstofc,#pin{
+    width: 90%;
+    height: 40px;
+    border: 1px solid #707070;
+}
+#pin{
+    margin-left: 10px;
+}
+#pincode{
+    margin-left: 10px;
+}
+@media screen and (min-width:600px)
+{
+    #contain,#container{
+        width: 550px;
+        height: 100vh;
+        height: 100%;
+        padding: 0;
+    }
+    #container{
+        margin-top: 10%;
+        height: 100vh;
+    }
+
+    #pincode{
+        margin: 0;
+        padding: 0;
+    }
+    #back{
+    margin-top: 50px;
+    overflow: hidden;
+    width: 550px;
+    height: 100%;
+    margin: auto;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "ration appno"
+    "ratnam appnum"
+    "appnm gender"
+    "appnam sex"
+    "ag addd"
+    "age address"
+    "fath post"
+    "nof pstofc"
+    "pincode locall"
+    "pin nol"
+    "vil tal"
+    "village thaluk"
+    "dis iss"
+    "district purpose"
+    "reg reg";
+    padding: 0;
+    margin: 0;
+    }
+    #pstofc,#pin
+    {
+    width: 100%;
+    height: 40px;
+    margin-left: 0;
+    }
+    #regi{
+        width: 50%;
+    }
+}

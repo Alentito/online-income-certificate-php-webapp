@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="income.css">
+</head>
+<body>
+    <div id="contain">
+        <div id="nav">INCOME CERTIFICATE</div>
+        <div id="container">
+    <form id="back" action="income.php" method="POST">
+               <span id="ration">Date of Birth</span> <br>
+            
+                 <input id="ratnam" type="text" name="ratnam"><br>
+            
+                <span id="appno">Application Number</span><br>
+            <input id="appnum" type="text" name="appnum"><br>
+            
+                <span id="appnm">Applicant Name</span><br>
+            <input id="appnam" type="text" name="appnam"><br>
+
+            <span id="gender">Gender</span><br>
+                <div id="sex"><input type="radio" name="sex" value="male">   Male
+                   
+                    <input type="radio" name="sex" value="female">   Female
+                   
+                    <input type="radio" name="sex" value="others">   Others</div><br>
+
+           <span id="ag">Age</span><br>
+            <input id="age" type="text" name="age"><br>
+            
+               <span id="addd">Address</span><br>
+             <input id="address" type="text" name="address"><br>
+
+            <span id="fath">Name of father</span><br>
+            <input  id="nof" type="text" name="nof"><br>
+
+            <span id="post">Post office</span> <span id="pincode">Pincode</span><br>
+                 <input id="pstofc" type="text" name="pstofc"> <input id="pin" type="text" name="pin"><br>
+
+            <span id="locall">Name of Local Body</span><br>
+             <input id="nol" type="text" name="nol"><br>
+
+            <span id="vil">Village</span><br>
+                     <input id="village" type="text" name="village"><br>
+
+           <span id="tal">Taluk</span><br>
+                     <input id="thaluk" type="text" name="thaluk"><br>
+
+            <span id="dis">District</span><br>
+                     <select  name="district" id="district"> 
+                    <option value="" disabled selected>Choose Category</option>
+                    <option value="kollam">Alappuzha</option>
+                    <option value="kollam">Ernakulam</option>
+                    <option value="kollam">Idukki</option>
+                    <option value="kollam">Kannur</option>
+                    <option value="kollam">Kasaragod</option>
+                    <option value="kollam">Kollam</option>
+                    <option value="kollam">Kottayam</option>
+                    <option value="kollam">Kozhikode</option>
+                    <option value="kollam">Malappuram</option>
+                    <option value="kollam">Palakkad</option>
+                    <option value="kollam">Pathanamthitta</option>
+                    <option value="kollam">Thiruvananthapuram</option>
+                    <option value="kollam">Thrissur</option>
+                    <option value="kollam">Wayanadu</option>
+                    
+                    
+                    
+                    
+                    
+                   
+                    
+                    
+                   
+                    
+                </select><br>
+
+           <span id="iss">Purpose for which the certificate id issued for:</span><br>
+             <select name="purpose" id="purpose"> 
+                    <option value="" disabled selected>Choose Category</option>
+                    <option value="Student">Availing fee concession in Education Institution</option>
+                    <option value="kollam">for securing seats in the quota reserved in professional colleges of the Socially and Economically Backward classes</option>
+                    <option value="kollam">for obtaining loans from Government Departments</option>
+                    
+                </select><br>
+                
+              <div id="reg">  <input id="regi" type="submit" name="register" value="REGISTER"> </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
